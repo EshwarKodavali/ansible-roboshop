@@ -6,7 +6,7 @@
     sg_id: sg-0b119592ed33e5705 # replace with your SG ID
     zone_id: Z05515612OU5U0TGKWIRY # replace with your ID
     domain_name: "eshwar.fun"
-    instances: ['mongodb']
+    # instances: ['mongodb']
   tasks:
   - name: start an instance with a public IP address
     amazon.aws.ec2_instance:
